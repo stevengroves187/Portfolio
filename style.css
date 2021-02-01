@@ -68,6 +68,12 @@ main h2 {
   text-align: center;
 }
 
+main h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  text-align: center;
+}
+
 /* Style for main paragraphs*/
 main p {
   font-family: Calibri, 'Trebuchet MS', sans-serif;
