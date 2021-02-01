@@ -1,0 +1,146 @@
+/* Setting box sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Style for main title */
+header h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 60px;
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+
+/* Styling for title in header/name in footer */
+header h2, footer h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  padding-bottom: 30px;
+  margin: 0px;
+  }
+
+/* Styling for header and footer boxes */
+header div, footer div {
+  background-color: rgb(12, 12, 12);
+  color: white;
+  text-align: center;
+}
+header{
+  background-color: rgb(12, 12, 12);
+  margin-top:-36px;
+  padding:0px;
+}
+
+/* Setting background image to site */
+main {
+  background-image: linear-gradient(rgba(0, 53, 66, 0.5), rgba(0, 0, 0, 0.5)),url('images/darkbackground.jpg')
+  }
+
+/* Styling for images*/
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2%;
+    border: 6px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 5px 2px rgb(25, 25, 25);
+}
+
+/* Padding for profile image div */
+.img {
+  padding: 50px;
+}
+
+/* Padding and border for thinkful image to center and offset for shadow */
+.img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2%;
+  box-shadow: 2px 3px 4px 2px rgb(70, 70, 70);
+}
+
+/* Style for main headers*/
+main h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* Style for main paragraphs*/
+main p {
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  }
+
+/* Font styling for lists and links */
+ul, ol, a{
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Style for text articles */
+article {
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: rgb(200, 200, 200);
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  border: 2px solid black;
+}
+
+/* Style for horizontal rules */
+hr{
+  margin: 20px;
+  border: 2px solid rgb(125, 125, 125);
+  border-radius: 50%;
+}
+
+/* Style for last hr to be flush with footer */
+.bottom {
+  margin-bottom:0px !important;
+}
+
+/* Styling for footer */
+footer{
+  margin:0px;
+  padding:0px;
+}
+
+/* Padding for footer div */
+footer div{
+padding-top:20px;
+}
+
+/* Style for links */
+a:link{
+ font-size: 18px;
+ color: rgb(11, 176, 179); 
+}
+
+/* Styling for visited links */
+a:visited{
+ color: rgb(0, 90, 90)
+}
+
+/* Styling for links when hovered over */
+a:hover{
+ font-weight: bold;
+ color:rgb(2, 228, 228);
+}
+
+/* Styling for links when clicked */
+a:active{
+ font-weight:lighter;
+ color:rgb(5, 235, 243);
+ text-decoration: line-through;
+}
+
+/* Positioning for Google Map embed */
+iframe{
+  display:block;
+  margin-top:20px;
+  margin-left:auto;
+  margin-right:auto;
+}
