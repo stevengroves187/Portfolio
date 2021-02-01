@@ -91,6 +91,17 @@ article {
   border: 2px solid black;
 }
 
+.info{
+  height: 275px;
+}
+
+.about{
+  height: 950px;
+}
+
+.contact{
+  height: 525px;
+}
 /* Style for horizontal rules */
 hr{
   margin-top: 20px;
